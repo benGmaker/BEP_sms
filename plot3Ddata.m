@@ -33,4 +33,5 @@ function plot3Ddata(N, T, X, do_legend, t_window)
     if do_legend
         legend(arrayfun(@(n)(['z' n]),num2str([1:N]'),'UniformOutput',false))
     end
+    
 end
