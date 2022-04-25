@@ -1,4 +1,5 @@
 function G = generate_layer(N,n)
+%erdos-renyi graaf
     nmax = N*(N-1); %maximum amount of edges
     if n >= nmax
         n = nmax;
